@@ -14,9 +14,9 @@ The art gallery business can post the artworks that are for sale and the buyer c
 
 The management will get in touch with the customer to confirm the transaction and to arrange for the delivery of the artwork.
 
- User Side
+# User Side
  
- Login Page
+Login Page
 
 The page where the system users will submit their system credentials to access and manage the data of the Art Gallery Management System.
 
