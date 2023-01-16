@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.shop2Controller">
+   <top>
+      <AnchorPane prefHeight="114.0" prefWidth="1320.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="224.0" fitWidth="1326.0" layoutX="-6.0" layoutY="-92.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../../../Downloads/title-img-2%202.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="568.0" layoutY="50.0" prefHeight="50.0" prefWidth="284.0" text="A R T  G A L L E R Y" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+            <Line endX="100.0" layoutX="451.0" layoutY="77.0" startX="-40.765899658203125" startY="7.62939453125E-6" stroke="WHITE" />
+            <Line endX="100.0" layoutX="911.0" layoutY="77.0" startX="-40.765899658203125" startY="7.62939453125E-6" stroke="WHITE" />
+            <Button fx:id="cartbtn" layoutX="1233.0" layoutY="61.0" mnemonicParsing="false" onAction="#gotocart" text="Cart">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="backbtn" layoutX="37.0" layoutY="64.0" mnemonicParsing="false" onAction="#back" text="Back">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane layoutX="767.0" layoutY="313.0" prefHeight="649.0" prefWidth="1339.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="180.0" fitWidth="200.0" layoutX="108.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Downloads/IMG_2015.JPG" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="180.0" fitWidth="220.0" layoutX="401.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Downloads/IMG_2017.JPG" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="180.0" fitWidth="220.0" layoutX="715.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Downloads/IMG_2019.JPG" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="180.0" fitWidth="220.0" layoutX="1023.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Downloads/IMG_2021.JPG" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="180.0" fitWidth="220.0" layoutX="111.0" layoutY="366.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Downloads/IMG_2023.JPG" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="180.0" fitWidth="220.0" layoutX="390.0" layoutY="366.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Downloads/IMG_2025.JPG" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="180.0" fitWidth="220.0" layoutX="717.0" layoutY="366.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Downloads/IMG_2027.JPG" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="180.0" fitWidth="220.0" layoutX="1029.0" layoutY="366.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Downloads/IMG_2029.JPG" />
+               </image>
+            </ImageView>
+            <Label layoutX="130.0" layoutY="274.0" prefHeight="26.0" prefWidth="91.0" text="Formal , 1969">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="413.0" layoutY="269.0" prefHeight="37.0" prefWidth="122.0" text="Brown bake , 1969">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="736.0" layoutY="268.0" prefHeight="37.0" prefWidth="119.0" text="Paper Work , 1959">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="1043.0" layoutY="270.0" prefHeight="37.0" prefWidth="114.0" text="Iridesence , 1969">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="111.0" layoutY="554.0" prefHeight="37.0" prefWidth="143.0" text="Winter Serenity, 1943">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="392.0" layoutY="554.0" prefHeight="37.0" prefWidth="139.0" text="Plumed Yellow , 1968">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="735.0" layoutY="554.0" prefHeight="37.0" prefWidth="115.0" text="Evernsong , 1968">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="1028.0" layoutY="554.0" prefHeight="26.0" prefWidth="145.0" text="Autumn Ground ,1969">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Button fx:id="sb1" layoutX="139.0" layoutY="313.0" mnemonicParsing="false" onAction="#shopb1" text="Add to cart" />
+            <Button fx:id="sb2" layoutX="439.0" layoutY="313.0" mnemonicParsing="false" onAction="#shopb2" text="Add to cart" />
+            <Button fx:id="sb3" layoutX="761.0" layoutY="312.0" mnemonicParsing="false" onAction="#shopb3" text="Add to cart" />
+            <Button fx:id="sb4" layoutX="1067.0" layoutY="312.0" mnemonicParsing="false" onAction="#shopb4" text="Add to cart" />
+            <Button fx:id="sb8" layoutX="145.0" layoutY="600.0" mnemonicParsing="false" onAction="#shopb5" text="Add to cart" />
+            <Button fx:id="sb5" layoutX="425.0" layoutY="600.0" mnemonicParsing="false" onAction="#shopb6" text="Add to cart" />
+            <Button fx:id="sb6" layoutX="754.0" layoutY="600.0" mnemonicParsing="false" onAction="#shopb7" text="Add to cart" />
+            <Button fx:id="sb7" layoutX="1060.0" layoutY="600.0" mnemonicParsing="false" onAction="#shopb8" text="Add to cart" />
+            <Label layoutX="48.0" layoutY="21.0" text="Showing 1– 8 results">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

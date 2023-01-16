@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.artgallerypageController">
+   <center>
+      <BorderPane BorderPane.alignment="CENTER">
+         <center>
+            <AnchorPane prefHeight="800.0" prefWidth="1300.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="350.0" fitWidth="400.0" layoutX="94.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Downloads/show-slider-img-1.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="447.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E X H I B I T I O N S" wrappingWidth="435.1755676269531">
+                     <font>
+                        <Font name="EB Garamond Regular" size="50.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="view5" layoutX="105.0" layoutY="106.0" mnemonicParsing="false" onAction="#go5" text="Back" />
+                  <Label alignment="CENTER" layoutX="122.0" layoutY="554.0" prefHeight="87.0" prefWidth="238.0" style="-fx-background-color: #f4f4f4;" text="THE STREET PAVEMENTS" textAlignment="CENTER">
+                     <font>
+                        <Font name="EB Garamond Regular" size="15.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="350.0" fitWidth="400.0" layoutX="400.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Downloads/show-slider-img-3.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" layoutX="429.0" layoutY="554.0" prefHeight="87.0" prefWidth="238.0" style="-fx-background-color: #f4f4f4;" text="LOOKING TO ETERNITY" textAlignment="CENTER">
+                     <font>
+                        <Font name="EB Garamond Regular" size="15.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="350.0" fitWidth="400.0" layoutX="694.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Downloads/show-slider-img-5.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" layoutX="725.0" layoutY="554.0" prefHeight="87.0" prefWidth="238.0" style="-fx-background-color: #f4f4f4;" text="TAKE ME TO THE FIELDS" textAlignment="CENTER">
+                     <font>
+                        <Font name="EB Garamond Regular" size="15.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="350.0" fitWidth="400.0" layoutX="999.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Downloads/show-img-15.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" layoutX="1037.0" layoutY="554.0" prefHeight="87.0" prefWidth="238.0" style="-fx-background-color: #f4f4f4;" text="LA BERCEUSE" textAlignment="CENTER">
+                     <font>
+                        <Font name="EB Garamond Regular" size="15.0" />
+                     </font>
+                  </Label>
+                  <Line endX="99.81588745117188" layoutX="339.0" layoutY="134.0" startX="-0.334320068359375" stroke="#9e9d9d" />
+                  <Line endX="-10.0296630859375" layoutX="984.0" layoutY="132.0" startX="-100.0" stroke="#b2afaf" />
+                  <Button fx:id="view1" layoutX="130.0" layoutY="636.0" mnemonicParsing="false" onAction="#go1" prefHeight="40.0" prefWidth="150.0" style="-fx-background-color: #ffffff; -fx-border-color: #d4af37;" text="View" textFill="#d4af37" />
+                  <Button fx:id="view4" layoutX="1046.0" layoutY="626.0" mnemonicParsing="false" onAction="#go4" prefHeight="40.0" prefWidth="150.0" style="-fx-background-color: #ffffff; -fx-border-color: #d4af37;" text="View" textFill="#d4af37" />
+                  <Button fx:id="view3" layoutX="734.0" layoutY="629.0" mnemonicParsing="false" onAction="#go3" prefHeight="40.0" prefWidth="150.0" style="-fx-background-color: #ffffff; -fx-border-color: #d4af37;" text="View" textFill="#d4af37" />
+                  <Button fx:id="view2" layoutX="441.0" layoutY="633.0" mnemonicParsing="false" onAction="#go2" prefHeight="40.0" prefWidth="150.0" style="-fx-background-color: #ffffff; -fx-border-color: #d4af37;" text="View" textFill="#d4af37" />
+                  <Text layoutX="599.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #C9AB81;" text="History of Gallery">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </center>
+</BorderPane>
