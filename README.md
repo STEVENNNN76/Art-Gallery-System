@@ -1,6 +1,6 @@
 # Art-Gallery-System
 
-Introduction
+*Introduction*
 
 This project aims to contain a variety of aspects associated with an art gallery, such as details about the gallery, the artists, their paintings, clients (the people who purchased the paintings), etc. The primary objective is to inform art enthusiasts about details , including the artwork and the artists.
 
